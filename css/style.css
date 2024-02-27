@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 28, 28);
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+header {
+
+    height: 100px;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1,
+h2,
+p,
+strong {
+    color: #F1F1F1;
+}
+
+.jogos {
+    color: #F1F1F1;
+}
+
+.Destaques {
+    color: #F1F1F1;
+   
+}
+
+.Home {
+    display: flex;
+
+    padding: 1% 10%;
+}
+
+img {
+
+    width: 50%;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(202,20,20,1) 53%, rgba(9,13,37,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', 'Titillium';
+        font-size: 20px;
+        text-transform: uppercase;
+
+        height: 60px;
+    }
+
+    .games {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .Top_5 {
+        
+    }
